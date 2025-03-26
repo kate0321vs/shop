@@ -1,1 +1,23 @@
-[{"title":"some title","description":"some description","price":200,"id":"064615f7-194e-4394-b4ff-bd8b4ff41ce6"},{"title":"some title 2","description":"some description 2","price":400,"id":"d44d4fb5-7ad3-42bb-9f27-211197dfcdcc"},{"title":"test","description":"test","price":400,"id":"24705636-2c6a-480e-a793-3fc7ac0af781"},{"title":"New title","description":"New description","price":400,"id":"3733519d-18ec-499d-a525-09d2c6fc1bf9"},{"title":"","description":"","price":null,"id":"e365dad6-b492-4974-9e64-a58b0be9131b"},{"title":"rfgerfv","description":"dfvdsfv","price":null,"id":"c4e1936f-810b-4863-8565-441bfc9b8590"},{"title":"fvef","description":"rtgrtg","price":577,"id":"89b22c54-f699-4427-b0fd-4f4c4772ea4b"},{"title":"title","description":"lala","price":50,"id":"5ebdbdf0-a908-4967-9bba-d41b77c75891"},{"title":"test","description":"test","price":500,"id":"fd1da52e-e983-4943-9e3b-3b7b150d9a13"},{"title":"fff","description":"rrferf","price":40,"id":"70d80c45-f9a0-4914-b115-c9d6ff0595e8"},{"title":"ttt","description":"kkmk","price":5000,"id":"f615a3ef-00bf-448d-9e04-bc5a4f409595"},{"title":"rrr","description":"dgkml","price":500,"id":"b86a3216-9a79-467b-869f-be190ba86638"},{"title":"fff","description":"lfg;l","price":4000,"id":"f03f53a7-e085-4199-90b1-6a1bc05ecf17"},{"title":"rrr","description":"dfvdf","price":500,"id":"4d2ac5df-de1d-42e8-a9ca-e8d0765f73de"},{"title":"dcec","description":"dfvdfv","price":444,"id":"9d9608c9-809c-4417-b388-7e7a121d55a2"},{"title":"vdfv","description":"efvef","price":44,"id":"a1395e74-52f0-4d4a-b67a-27068d1b39ce"},{"title":"dfvdf","description":"dfvdf","price":444,"id":"aa7e653e-60ff-4acf-8be3-84827374b5ba"},{"title":"fvdf","description":"ghghty","price":345345,"id":"547188a6-e85c-4663-9652-b84aa8ed1361"},{"title":"fevefv","description":"ferwfer","price":400,"id":"c4992f9b-cbe1-4ce2-951d-545237263ec1"},{"title":"fvsdfv","description":"efvf","price":4334,"id":"4b6586eb-4dc5-4043-b202-c1cd7a6527e7"},{"title":"wefwe","description":"efvf","price":4543,"id":"c5a99b70-1c49-43d6-8bee-5b400dc32056"},{"title":"амыва","description":"цуацу","price":100,"id":"0226ac7e-679e-4349-8143-ac84d8a2dc01"},{"title":"dcec","description":"efvef","price":3434,"id":"77b4d8fc-0832-49de-a5f0-827289f94955"}]
+[
+  {
+    "title": "test",
+    "description": "test",
+    "price": "500",
+    "image": "f053ab12-e5ae-4090-b47d-e047a443d1f3.webp",
+    "id": "b2087e85-ea88-42fa-8e98-68c08e38e172"
+  },
+  {
+    "title": "titile",
+    "description": "text",
+    "price": "600",
+    "image": "6cd3ab83-c0a6-457d-9f9e-c9ee4dd4114d.jpg",
+    "id": "920728bf-3b91-4729-a978-da0f79b8caaa"
+  },
+  {
+    "title": "test2",
+    "description": "test2",
+    "price": "700",
+    "image": null,
+    "id": "43146938-380a-4271-bb5d-95cae8eed136"
+  }
+]

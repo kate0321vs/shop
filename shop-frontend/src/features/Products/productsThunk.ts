@@ -13,10 +13,17 @@ export const fetchProducts = createAsyncThunk<Product[]>(
 export const createProduct = createAsyncThunk<void, ProductMutation>(
   'products/create',
   async (productMutation) => {
-    const serialized = {
-      ...productMutation,
-      price: parseFloat(productMutation.price)
-    };
-     await axiosApi.post('/products', serialized);
+    const formData = new FormData();
+    const keys = Object.keys(productMutation) as (keyof ProductMutation)[];
+
+    keys.forEach((key) => {
+      const value = productMutation[key];
+
+      if (value !== null) {
+        formData.append(key, value);
+      }
+    })
+
+     await axiosApi.post('/products', formData);
   }
 );

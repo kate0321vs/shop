@@ -6,6 +6,7 @@ import { useAppDispatch, useAppSelector } from '../../../app/hooks.ts';
 import { useNavigate } from 'react-router-dom';
 import SendIcon from '@mui/icons-material/Send';
 import { selectProductCreating } from '../productsSlice.ts';
+import FileInput from '../../../components/UI/FileInput/FileInput.tsx';
 
 const ProductForm = () => {
   const dispatch = useAppDispatch();
@@ -15,7 +16,8 @@ const ProductForm = () => {
   const [state, setState] = useState<ProductMutation>({
     title: '',
     price: '',
-    description: ''
+    description: '',
+    image: null
   });
 
   const submitFormHandler = async (e: React.FormEvent) => {
@@ -31,6 +33,15 @@ const ProductForm = () => {
     });
   };
 
+  const filesInputChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, files } = e.target;
+    if (files) {
+      setState(prevState => {
+        return {...prevState,
+          [name]: files[0]};
+      })
+    }
+  }
 
   return (
     <form
@@ -62,6 +73,9 @@ const ProductForm = () => {
             onChange={inputChangeHandler}
             name="description"
           />
+        </Grid>
+        <Grid item xs>
+          <FileInput onChange={filesInputChangeHandler} name='image' label='image' />
         </Grid>
         <Grid item xs>
           <Button
